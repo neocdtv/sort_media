@@ -22,13 +22,16 @@ A Python utility to recursively scan, extract dates from metadata or filenames, 
 1. **Clone or download** the script (`sort_media.py`) into your project directory.
 2. **Create and activate a virtual environment:**
    ```bash
-   python -m venv venv
+   python3 -m venv venv
    
    # On macOS / Linux:
    source venv/bin/activate
-   
-   # On Windows (Command Prompt):
-   venv\Scripts\activate.bat
-   
-   # On Windows (PowerShell):
-   venv\Scripts\Activate.ps1
+   ```
+3. **Sort (default copy):**
+   ```bash
+   python3 sort_media.py "/path/to/source_photos"
+   ```
+4. **Sort (move):**
+   ```bash
+   python3 sort_media.py "/path/to/source_photos" --copy false
+   ```
