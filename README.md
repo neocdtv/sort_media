@@ -23,8 +23,7 @@ A Python utility to recursively scan, extract dates from metadata or filenames, 
 2. **Create and activate a virtual environment:**
    ```bash
    python3 -m venv venv
-   
-   # On macOS / Linux:
+  
    source venv/bin/activate
    ```
 3. **Sort (default copy):**
